@@ -1,0 +1,22 @@
+{
+  "name": "0001",
+  "version": "1.0.0",
+  "description": "Count chars task",
+  "main": "CountChar.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgy4cx/CountChars.git"
+  },
+  "author": "György Végh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgy4cx/CountChars/issues"
+  },
+  "homepage": "https://github.com/bgy4cx/CountChars#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
