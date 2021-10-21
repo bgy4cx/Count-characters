@@ -1,5 +1,9 @@
-const count = require('./CountChar');
-
+const {count, IsitString} = require('./CountChar');
+const output = {};
 test('Is it a string', () => {
-  expect(count('')).toBe(true)
+  expect(IsitString('aba')).toBe(true)
+});
+
+test('Is it empty', () => {
+  expect(count('')).toEqual(output)
 });

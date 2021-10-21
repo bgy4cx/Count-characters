@@ -11,7 +11,7 @@
 
 ### Guardiens
 - Input is a string ☑️
-- In case of empty sting the result is empty. 
+- In case of empty sting the result is empty. ☑️
 - output is an object
 
 ### Process

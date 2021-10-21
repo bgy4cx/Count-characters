@@ -1,9 +1,19 @@
+function IsitString (string) {
+  if (typeof string == 'string') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 function count (string) {  
-    if (typeof string == 'string') {
-      return true;
-    } else {
-      return false;
-    }
+    if (IsitString(string)) {
+      if (string == '') {
+        return {}
+      }
+    }  
   }
 
-  module.exports = count;
+  module.exports = {count, 
+                    IsitString,
+  };
