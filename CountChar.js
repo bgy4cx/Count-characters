@@ -1,7 +1,8 @@
 function count (string) {  
-  const output = {};
     if (typeof string == 'string') {
-      return output;
+      return true;
+    } else {
+      return false;
     }
   }
 
