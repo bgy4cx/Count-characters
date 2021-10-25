@@ -10,9 +10,11 @@
 ## **Notes**
 
 ### Guardiens
+
 - Input is a string ☑️
 - In case of empty sting the result is empty. ☑️
-- output is an object
+- output is an object ☑️
 
 ### Process
-- We have to count the number of the characters. 
+
+- We have to count the number of the characters. ☑️

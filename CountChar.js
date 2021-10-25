@@ -8,9 +8,16 @@ function IsitString (string) {
 
 function count (string) {  
     if (IsitString(string)) {
-      if (string == '') {
-        return {}
-      }
+        var chars = string.split('');
+        var obj = {};
+        chars.forEach(function(ch,i) {
+          if (obj[ch] >= 1) {
+            obj[ch] = obj[ch] + 1;
+          } else {
+            obj[ch] = 1;
+          }
+        });
+        return obj;
     }  
   }
 
